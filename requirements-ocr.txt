@@ -1,0 +1,17 @@
+# Auto Typing Tool with OCR - Requirements
+# Install these packages to use the OCR version of the auto typing tool
+
+pynput>=1.7.6
+Pillow>=9.0.0
+pytesseract>=0.3.10
+opencv-python>=4.5.0
+numpy>=1.21.0
+
+# Optional: For better OCR accuracy
+easyocr>=1.6.0
+paddle-ocr>=2.7.0
+
+# Note on Tesseract OCR Engine:
+# On Windows: Download and install from https://github.com/UB-Mannheim/tesseract/wiki
+# On macOS: brew install tesseract
+# On Linux: sudo apt-get install tesseract-ocr
